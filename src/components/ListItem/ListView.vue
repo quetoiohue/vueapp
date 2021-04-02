@@ -6,7 +6,7 @@
       v-bind:key="todo.id"
       class="list-group-item list-group-item-info d-flex row"
     >
-      <p class="col-8 text-center">
+      <p class="col-8 text-center text-red-1">
         {{ todo.title }}
       </p>
       <div class="col-4 d-flex justify justify-content-between">
